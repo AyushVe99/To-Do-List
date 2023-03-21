@@ -9,12 +9,13 @@ a{
 }
 .header{
     min-height: 60vh;
-    background: greenyellow;
+    background: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: aliceblue;
     position: relative;
+    text-decoration: none;
 }
 .container{
     max-width: 1200px;
@@ -26,12 +27,20 @@ a{
     justify-content: space-between;
     min-height: 8vh;
     align-items: center;
+    /* color: #eee; */
 }
 .nav-items{
     width: 40%;
     display: flex;
     list-style-type: none;
     justify-content: space-between;
+    /* color: #eee; */
+}
+.nav-items li{
+    color: #eee;
+}
+.nav-items li a{
+    color: aliceblue;
 }
 .headline{
     text-align: center;
@@ -139,6 +148,10 @@ display: block;
 .bg-dark{
     background: #000;
     color: #eee;
+}
+.logo a{
+    color: aliceblue;
+    cursor: pointer;
 }
 
 /* body{
